@@ -1,0 +1,9 @@
+<div class="outer-container">
+    <h2>Lazy Loaded Module</h2>
+    <div class="wrap">
+        <button class="button" (click)="sendMessage()">Send Message to Lazy Module</button>
+    </div>
+    <p class="messages"><b>Message from query params: </b>{{ messageFromQuery }}</p>
+    <p class="messages"><b>Message from service: </b>{{ messageFromService }}</p>
+    <button (click)="goToDynamic()" class="nav-button">Go to Dynamic Component</button>
+</div>

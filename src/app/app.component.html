@@ -1,0 +1,6 @@
+<h1>Angular Application</h1>
+<nav>
+  <a routerLink="/" class="nav-button">Home</a>
+  <a routerLink="/lazy" [queryParams]="{message: 'Hello from main!'}" class="nav-button">Lazy Module</a>
+</nav>
+<router-outlet></router-outlet>
